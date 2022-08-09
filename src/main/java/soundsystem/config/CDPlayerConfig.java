@@ -13,6 +13,6 @@ public class CDPlayerConfig {
 
 	@Bean
 	public CDPlayer cdPlayer(CompactDisc compactDisc) {
-		return new CDPlayer(compactDisc);
+		return new CDPlayer();
 	}
 }
